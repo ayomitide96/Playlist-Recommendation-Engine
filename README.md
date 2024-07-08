@@ -21,10 +21,10 @@ The project uses a subset of the Spotify Million Playlist Dataset, which include
 ### Dataset File: `playlist csv.csv.zip`
 - **Contents**: CSV file with user, track, and playlist interaction data.
 - **Columns**:
-  - `user_id`: Unique identifier for each user
-  - `track_id`: Unique identifier for each track
-  - `playlist_id`: Unique identifier for each playlist
-  - `timestamp`: Timestamp indicating when the interaction occurred
+  - `userid`: Unique identifier for each user
+  - `trackname`: Name of the track
+  - `artistname`: Name of the artist
+  - `playlistname`: Name of the playlist
 
 ## Installation
 
@@ -32,15 +32,14 @@ To get started with the project, clone the repository and install the necessary 
 
 ```bash
 # Clone the repository
-git clone https://github.com/ayomitide96/Playlist-Recommendation-Engine.git
-cd Playlist-Recommendation-Engine
-
-# Create a virtual environment (optional but recommended)
-python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
+git clone https://github.com/ayomitide96/playlist-continuation-recommender.git
+cd playlist-continuation-recommender
 
 # Install required libraries
 pip install -r requirements.txt
+
+# Unzip the dataset
+unzip playlist.csv.zip
 ```
 ## Methodology
 
@@ -71,7 +70,7 @@ You can explore the functionality of the recommendation system using the provide
    ```
 ### Usage Instructions
 
-2. **Open Playlist cont preprocessing.ipynb**: Navigate to the notebook in the Jupyter interface.
+2. **Open Playlist Continuation Hybrid Recommendation System.ipynb using Jupyter Notebook or JupyterLab.
 3. **Run the Cells**: Execute the cells in order to preprocess data, train models, and generate recommendations.
 
 ### File Descriptions
