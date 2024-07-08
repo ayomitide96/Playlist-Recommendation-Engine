@@ -74,13 +74,13 @@ You can explore the functionality of the recommendation system using the provide
 3. **Run the Cells**: Execute the cells in order to preprocess data, train models, and generate recommendations.
 
 ### File Descriptions
-
-- **Playlist cont preprocessing.ipynb**: Jupyter Notebook containing the data preprocessing steps, model training, and evaluation procedures.
-- **playlist csv.csv.zip**: Zipped CSV file with the dataset used for building and testing the recommendation system.
+- **Playlist Continuation Hybrid Recommendation System.ipynb  # Jupyter Notebook with the main code
+- **playlist.csv.zip**: Zipped CSV file with the dataset used for building and testing the recommendation system.
 - **requirements.txt**: Lists the Python dependencies required to run the project.
 - **README.md**: This file, providing an overview and instructions for the project.
 
 ### Results
 
-The hybrid recommendation system significantly improves playlist coherence and user satisfaction compared to traditional recommendation models. Detailed performance metrics and analysis can be found in the `Playlist cont preprocessing.ipynb` notebook.
+The hybrid recommendation system significantly improves playlist coherence and user satisfaction compared to traditional models. The combination of different recommendation strategies ensures a more personalized and enjoyable music listening experience.
+
 
