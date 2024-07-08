@@ -18,8 +18,8 @@ The project uses a subset of the Spotify Million Playlist Dataset, which include
 - Track metadata and features
 - Playlist composition
 
-### Dataset File: `playlist csv.csv.zip`
-- **Contents**: CSV file with user, track, and playlist interaction data.
+### Dataset File: `playlist.csv.zip`
+- **Contents**: CSV file with user, track, artistname and playlist playlistname.
 - **Columns**:
   - `userid`: Unique identifier for each user
   - `trackname`: Name of the track
