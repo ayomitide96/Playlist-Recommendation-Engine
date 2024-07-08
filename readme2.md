@@ -17,10 +17,10 @@ Dataset
 
 The dataset used in this project is the Spotify Million Playlist Dataset. The primary columns in the dataset are:
 
-userid: Unique identifier for each user.
-artistname: Name of the artist.
-trackname: Name of the track.
-playlistname: Name of the playlist.
+'userid': Unique identifier for each user.
+'artistname': Name of the artist.
+'trackname': Name of the track.
+'playlistname': Name of the playlist.
 
 Installation
 
